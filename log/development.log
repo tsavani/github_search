@@ -1,0 +1,1407 @@
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: 'keywords/index'` to `controller: 'keywords/index'`. (called from block in <top (required)> at /home/nikita/671533/github_search/config/routes.rb:2)
+  [1m[36m (67.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (9.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateKeywords (20150729110953)
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "keywords" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "keyword" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150729110953"]]
+  [1m[35m (24.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:46:28 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2283ms (Views: 2269.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-29 16:46:31 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 16:46:31 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-29 16:46:31 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 16:46:31 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 16:46:31 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 16:46:31 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 16:46:31 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:48:36 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:48:38 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:48:41 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:49:14 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:49:16 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:49:32 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-29 16:49:32 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:32 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:32 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:32 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:32 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-29 16:49:32 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:32 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:49:48 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-29 16:49:48 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:48 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:48 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:48 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-29 16:49:48 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:48 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:48 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:49:58 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-29 16:49:58 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:58 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:58 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:58 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:58 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-29 16:49:58 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 16:49:58 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:54:04 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 16:54:05 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 118.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:46:36 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (63.3ms)
+Completed 200 OK in 713ms (Views: 594.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:47:15 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 582ms (Views: 580.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:47:24 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 314ms (Views: 313.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:47:50 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1059ms (Views: 1048.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:49:40 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:51:03 +0530
+Processing by KeywordsController#index as HTML
+  [1m[35mKeyword Load (0.6ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:51:05 +0530
+Processing by KeywordsController#index as HTML
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:51:06 +0530
+Processing by KeywordsController#index as HTML
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:51:07 +0530
+Processing by KeywordsController#index as HTML
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:51:08 +0530
+Processing by KeywordsController#index as HTML
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:53:37 +0530
+Processing by KeywordsController#index as HTML
+  [1m[36mKeyword Load (0.8ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:53:39 +0530
+Processing by KeywordsController#index as HTML
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:53:48 +0530
+Processing by KeywordsController#index as HTML
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:53:59 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:54:01 +0530
+Processing by KeywordsController#index as HTML
+  [1m[36mKeyword Load (0.5ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:54:02 +0530
+Processing by KeywordsController#index as HTML
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:55:17 +0530
+Processing by KeywordsController#index as HTML
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:55:19 +0530
+Processing by KeywordsController#index as HTML
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:55:31 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  [1m[35mKeyword Load (0.4ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 20ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:55:33 +0530
+Processing by KeywordsController#index as HTML
+  [1m[36mKeyword Load (0.5ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:58:15 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 300ms (Views: 284.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?keyword=asdasdasd" for 127.0.0.1 at 2015-07-29 17:58:26 +0530
+Processing by KeywordsController#index as HTML
+  Parameters: {"keyword"=>"asdasdasd"}
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?keyword=asdfddasd" for 127.0.0.1 at 2015-07-29 17:58:31 +0530
+Processing by KeywordsController#index as HTML
+  Parameters: {"keyword"=>"asdfddasd"}
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:59:14 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 17:59:16 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:01:17 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:01:19 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:01:21 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:01:22 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:01:33 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 279ms (Views: 266.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-29 18:01:33 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:33 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-29 18:01:33 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:33 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:33 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:33 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:33 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:01:35 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-29 18:01:35 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:35 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:35 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-29 18:01:35 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:35 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:35 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:35 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:01:35 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/keywords.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/keywords.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 18:01:36 +0530
+
+
+Started GET "/destroy" for 127.0.0.1 at 2015-07-29 18:01:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/destroy"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (59.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (97.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:03:57 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 698ms (Views: 686.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:04:01 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:10:57 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7483ms (Views: 7472.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6013668cd4f5cd747484b084a89f940ece1fcfa1d7601baf58263bbceec39aa7.css?body=1" for 127.0.0.1 at 2015-07-29 18:11:05 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:11:41 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2182ms (Views: 2181.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3ccc858beda81864b1ad174dc549ef31120aab7e12e1c08df7b04cd223391209.css?body=1" for 127.0.0.1 at 2015-07-29 18:11:43 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 18:11:43 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 18:11:43 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 18:11:43 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 18:11:43 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 18:11:43 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:58:35 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3605ms (Views: 3594.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:59:00 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:59:02 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 18:59:15 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 77ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3ccc858beda81864b1ad174dc549ef31120aab7e12e1c08df7b04cd223391209.css?body=1" for 127.0.0.1 at 2015-07-29 18:59:15 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 18:59:15 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 18:59:15 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 18:59:15 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 18:59:15 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 18:59:15 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:15:31 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 519ms (Views: 517.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:18:47 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 321ms (Views: 306.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:18:55 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:19:58 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 304ms (Views: 294.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:20:03 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:21:27 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 350ms (Views: 336.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:21:50 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 85ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:22:32 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 77ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:22:33 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 97ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:23:53 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 272ms (Views: 261.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:24:08 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 87ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:24:10 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:25:15 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 356ms (Views: 346.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:25:17 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 109ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:27:31 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 272ms (Views: 261.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:27:33 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 91ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:29:48 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 306ms (Views: 294.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:29:52 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (247.1ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "hi"], ["created_at", "2015-07-29 14:02:22.816657"], ["updated_at", "2015-07-29 14:02:22.816657"]]
+  [1m[36m (57.2ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:32:31 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:32:34 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 115ms (Views: 114.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:32:41 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 78ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:32:42 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:33:04 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 294ms (Views: 283.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:33:06 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 113ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:33:52 +0530
+Processing by KeywordsController#get_data as HTML
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:33:57 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:33:59 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 109ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:35:21 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:35:23 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 259ms (Views: 258.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:35:49 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:35:51 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:35:54 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/add?keyword=%20asdfdf" for 127.0.0.1 at 2015-07-29 19:36:00 +0530
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" asdfdf"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["keyword", "asdfdf"], ["created_at", "2015-07-29 14:06:00.639570"], ["updated_at", "2015-07-29 14:06:00.639570"]]
+  [1m[35m (55.8ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 66ms (Views: 0.1ms | ActiveRecord: 57.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:37:17 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3ccc858beda81864b1ad174dc549ef31120aab7e12e1c08df7b04cd223391209.css?body=1" for 127.0.0.1 at 2015-07-29 19:37:17 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 19:37:17 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 19:37:17 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 19:37:17 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 19:37:17 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 19:37:17 +0530
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:37:19 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.6ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:37:30 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 340ms (Views: 329.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:37:32 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:37:51 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 111ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:37:52 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:38:31 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:38:32 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:38:40 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 322ms (Views: 306.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:38:41 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:39:38 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 2008ms (Views: 2007.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5a046af93b8596492bb8eed2cb9e22a6e782a20e90e26c65b9b30084eae8c79b.css?body=1" for 127.0.0.1 at 2015-07-29 19:39:40 +0530
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:39:42 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.5ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:39:55 +0530
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2152ms (Views: 2152.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cb7d65791b1662e398daaa7bcf791a995e524b50246161c272002cb88f78b480.css?body=1" for 127.0.0.1 at 2015-07-29 19:39:57 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-29 19:39:57 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-29 19:39:57 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-29 19:39:58 +0530
+
+
+Started GET "/assets/keywords.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-29 19:39:58 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-29 19:39:58 +0530
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:39:59 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/add?keyword=%20sdfsdf" for 127.0.0.1 at 2015-07-29 19:40:06 +0530
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" sdfsdf"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (12.1ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "sdfsdf"], ["created_at", "2015-07-29 14:10:06.784687"], ["updated_at", "2015-07-29 14:10:06.784687"]]
+  [1m[36m (96.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 109.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:42:41 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 320ms (Views: 310.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:42:42 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:43:06 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 344ms (Views: 330.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:43:07 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.4ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:43:09 +0530
+Processing by KeywordsController#index as */*
+  Rendered keywords/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/add?keyword=%20asdfsdfsdf" for 127.0.0.1 at 2015-07-29 19:43:16 +0530
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" asdfsdfsdf"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "asdfsdfsdf"], ["created_at", "2015-07-29 14:13:16.489096"], ["updated_at", "2015-07-29 14:13:16.489096"]]
+  [1m[36m (56.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 66ms (Views: 0.1ms | ActiveRecord: 57.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:43:43 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 285ms (Views: 274.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:43:44 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.4ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/delete?id=1" for 127.0.0.1 at 2015-07-29 19:43:46 +0530
+
+ActionController::RoutingError (No route matches [GET] "/delete"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (17.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (22.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (57.3ms)
+
+
+Started GET "/delete?id=1" for 127.0.0.1 at 2015-07-29 19:43:49 +0530
+
+ActionController::RoutingError (No route matches [GET] "/delete"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (40.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:46:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 297ms (Views: 283.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:46:18 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.4ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/delete?id=1" for 127.0.0.1 at 2015-07-29 19:46:20 +0530
+
+ActionController::RoutingError (No route matches [GET] "/delete"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (22.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (43.6ms)
+
+
+Started GET "/delete?id=1" for 127.0.0.1 at 2015-07-29 19:46:22 +0530
+
+ActionController::RoutingError (No route matches [GET] "/delete"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (28.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (54.1ms)
+
+
+Started GET "/delete?id=2" for 127.0.0.1 at 2015-07-29 19:46:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/delete"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (23.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (46.7ms)
+
+
+Started GET "/delete?id=3" for 127.0.0.1 at 2015-07-29 19:46:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/delete"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (11.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (24.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (59.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 19:47:02 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 305ms (Views: 289.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:47:02 +0530
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/delete?id=1" for 127.0.0.1 at 2015-07-29 19:47:04 +0530
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "keywords" WHERE "keywords"."id" = ?[0m  [["id", 1]]
+  [1m[35m (47.7ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 146ms (Views: 0.6ms | ActiveRecord: 49.0ms)
+
+
+Started GET "/delete?id=4" for 127.0.0.1 at 2015-07-29 19:47:05 +0530
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"4"}
+  [1m[35mKeyword Load (0.1ms)[0m  SELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "keywords" WHERE "keywords"."id" = ?  [["id", 4]]
+  [1m[36m (89.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 93ms (Views: 0.1ms | ActiveRecord: 90.2ms)
+
+
+Started GET "/delete?id=2" for 127.0.0.1 at 2015-07-29 19:47:06 +0530
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mKeyword Load (0.5ms)[0m  [1mSELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "keywords" WHERE "keywords"."id" = ?[0m  [["id", 2]]
+  [1m[35m (46.5ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 52ms (Views: 0.1ms | ActiveRecord: 47.7ms)
+
+
+Started GET "/delete?id=3" for 127.0.0.1 at 2015-07-29 19:47:07 +0530
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"3"}
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "keywords" WHERE "keywords"."id" = ?  [["id", 3]]
+  [1m[36m (37.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 41ms (Views: 0.1ms | ActiveRecord: 38.1ms)
+
+
+Started POST "/add?keyword=%20sdfsdfsd" for 127.0.0.1 at 2015-07-29 19:47:09 +0530
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" sdfsdfsd"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "sdfsdfsd"], ["created_at", "2015-07-29 14:17:09.097540"], ["updated_at", "2015-07-29 14:17:09.097540"]]
+  [1m[36m (34.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 44ms (Views: 0.2ms | ActiveRecord: 35.3ms)
+
+
+Started POST "/add?keyword=rfsfd" for 127.0.0.1 at 2015-07-29 19:47:11 +0530
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>"rfsfd"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "rfsfd"], ["created_at", "2015-07-29 14:17:11.387706"], ["updated_at", "2015-07-29 14:17:11.387706"]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 5.8ms)
+
+
+Started POST "/add?keyword=%20dfgfgfg" for 127.0.0.1 at 2015-07-29 19:47:12 +0530
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" dfgfgfg"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "dfgfgfg"], ["created_at", "2015-07-29 14:17:12.678920"], ["updated_at", "2015-07-29 14:17:12.678920"]]
+  [1m[36m (315.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.5ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 323ms (Views: 0.1ms | ActiveRecord: 316.0ms)
+
+
+Started POST "/add?keyword=%20dgdfgf" for 127.0.0.1 at 2015-07-29 19:47:14 +0530
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" dgdfgf"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "dgdfgf"], ["created_at", "2015-07-29 14:17:14.465813"], ["updated_at", "2015-07-29 14:17:14.465813"]]
+  [1m[36m (167.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 173ms (Views: 0.1ms | ActiveRecord: 168.4ms)
+
+
+Started POST "/add?keyword=%20dfgdfg6564565@" for 127.0.0.1 at 2015-07-29 19:47:19 +0530
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" dfgdfg6564565@"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "dfgdfg6564565@"], ["created_at", "2015-07-29 14:17:19.100735"], ["updated_at", "2015-07-29 14:17:19.100735"]]
+  [1m[36m (47.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 54ms (Views: 0.1ms | ActiveRecord: 48.7ms)
+
+
+Started GET "/get_data" for 127.0.0.1 at 2015-07-29 19:47:26 +0530
+Processing by KeywordsController#get_data as HTML
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/delete?id=9" for 127.0.0.1 at 2015-07-29 19:47:32 +0530
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"9"}
+  [1m[35mKeyword Load (0.1ms)[0m  SELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "keywords" WHERE "keywords"."id" = ?  [["id", 9]]
+  [1m[36m (30.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.5ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 40ms (Views: 0.4ms | ActiveRecord: 31.4ms)
+
+
+Started GET "/delete?id=8" for 127.0.0.1 at 2015-07-29 19:47:33 +0530
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"8"}
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "keywords" WHERE "keywords"."id" = ?[0m  [["id", 8]]
+  [1m[35m (199.1ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 207ms (Views: 0.2ms | ActiveRecord: 199.9ms)
+
+
+Started GET "/delete?id=7" for 127.0.0.1 at 2015-07-29 19:47:33 +0530
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"7"}
+  [1m[35mKeyword Load (0.1ms)[0m  SELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "keywords" WHERE "keywords"."id" = ?  [["id", 7]]
+  [1m[36m (31.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.4ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 36ms (Views: 0.1ms | ActiveRecord: 31.8ms)
+
+
+Started GET "/delete?id=6" for 127.0.0.1 at 2015-07-29 19:47:34 +0530
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"6"}
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "keywords" WHERE "keywords"."id" = ?[0m  [["id", 6]]
+  [1m[35m (39.0ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 44ms (Views: 0.1ms | ActiveRecord: 39.7ms)

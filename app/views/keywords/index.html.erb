@@ -1,0 +1,98 @@
+<form id="form1" enctype="multipart/form-data" remote="true" accept-charset="ISO-8859-1">
+ <div class="row">
+  <div id="profile">
+    <div id="error"></div>
+    <h2><p>Add KeyWords</p></h2>
+    <%= text_field_tag :keyword%>
+    <input type="button" value="Add" id="add_keyword" class= "btn btn-large btn-primary" />
+    <br/>
+    <hr />
+    <table>
+      <div id="keywords_list"></div>
+    </table> 
+   </div>
+ </div>
+</form>
+
+
+
+<%content_for :head do %>
+
+<script type="text/javascript" charset="utf-8">
+
+    var all_keyword =[];
+    var array_of_keywords = new Array();
+    var nIntervId;
+    var count=0;
+    var flag = 0;
+
+
+  $(document).ready(function(){
+  //it will run at the time of page loading...
+        document.getElementById("keyword").value = " " ;
+        document.charset = 'ISO-8859-1';
+        all_keyword = [];
+          $.ajax({
+            type: "GET",
+            url:"/get_data",
+            success:function(result){
+              $("#keywords_list").html(" ");
+              $("#keywords_list").append('<tr><td><b>keywords</b></td><td><b>Action</b></td></tr>')
+              $.each(result,function(key,val){
+                all_keyword.push(val.keyword);
+                $("#keywords_list").append('<tr><td>'+val.keyword+'</td><td> <input type="button" value="Delete keyword" id="delete_'+ val.id +'" class= "delete btn btn-primary" onclick = "delete_data('+val.id+');"></td></tr>');
+                  array_of_keywords = all_keyword;
+              });
+            } , async:   false
+          });
+
+  // add new keyword.......
+    $("#add_keyword").click(function(){
+      $("#error").html('');
+      var val = document.getElementById("keyword").value;
+      all_keyword = [];
+      
+      $.ajax({
+        type: "POST",
+        url:"/add?keyword="+val,
+        success:function(result){
+            document.getElementById("keyword").value = " " ;
+            $("#keywords_list").html(" ");
+            $("#keywords_list").append('<tr><td><b>keywords</b></td><td><b>Action</b></td></tr>')
+            $.each(result,function(key,val){
+               all_keyword.push(val.keyword);
+               $("#keywords_list").append('<tr><td>'+val.keyword+'</td><td> <input type="button" value="Delete keyword" id="delete_'+ val.id +'" class= "btn btn-primary" onclick = "delete_data('+val.id+');"></td></tr>');
+                array_of_keywords = all_keyword;
+         });            
+       },  async:   false
+      }); 
+    });
+
+      // Import keywords keyword.......
+  
+
+
+  });
+
+//for delete keyword.....
+function delete_data(id){
+  $("#error").html('');
+  all_keyword = [];
+  $.ajax({
+    type: "GET",
+    url:"/delete?id="+id,
+    success:function(result){
+      $("#keywords_list").html(" ");
+      $("#keywords_list").append('<tr><td><b>keywords</b></td><td><b>Action</b></td></tr>')
+      $.each(result,function(key,val){
+        all_keyword.push(val.keyword);
+        $("#keywords_list").append('<tr><td>'+val.keyword+'</td><td> <input type="button" value="Delete keyword" id="delete_'+ val.id +'" class= "btn btn-primary" onclick = "delete_data('+val.id+');"></td></tr>');
+        array_of_keywords = all_keyword; 
+      });       
+    },  async:   false
+  });
+}
+     
+</script>
+
+<%end%>
