@@ -1,12 +1,18 @@
 Rails.application.routes.draw do
 
-  root 'keywords#index'
+  # get 'github_apis/search'
 
-  #resources :keywords
+  # get 'github_apis/index'
 
-  match '/add',        to: 'keywords#add',         via: 'POST'
+  root 'github_apis#search'
+
+  resources :github_apis, only: [:search, :index]
+  resources :keywords, only: [:index]
+
+  #match '/keywords',   to: 'keywords#index',       via: 'get'
+  match '/add',        to: 'keywords#add',         via: 'post'
   match '/get_data',   to: 'keywords#get_data',    via: 'get'
-   match '/delete',    to: 'keywords#delete',      via: 'get'
+  match '/delete',     to: 'keywords#delete',      via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

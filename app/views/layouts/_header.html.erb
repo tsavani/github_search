@@ -1,0 +1,15 @@
+<header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <%= link_to '<b>Github Search</b>'.html_safe, root_url, :class => "navbar-brand" %>
+    </div>
+    <div class="navbar-header-right" , data-no-turbolink>
+      <%= link_to "Github", root_url, :class => "navbar-brand" %>
+      <%= link_to "Keyword", keywords_url, :class => "navbar-brand" %>
+      
+      <%#= link_to "Bengaluru", visits_url(location: 'Bengaluru'), :class => "navbar-brand" %>
+      <%#= link_to "Kolkata", visits_url(location: 'Kolkata'), :class => "navbar-brand" %>
+      <%#= link_to "Gurgaon", visits_url(location: 'Gurgaon'), :class => "navbar-brand" %>
+    </div>
+  </div>
+</header>
