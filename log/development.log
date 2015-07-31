@@ -12493,3 +12493,1818 @@ Started GET "/get_data" for 127.0.0.1 at 2015-07-30 19:26:17 +0530
 Processing by KeywordsController#get_data as */*
   [1m[35mKeyword Load (0.5ms)[0m  SELECT "keywords".* FROM "keywords"
 Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:15:41 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/nikita/671533/github_search/app/controllers/github_apis_controller.rb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  	https://api.github.com/search/code?q=@keyword+user:@user
+  	                                    ^
+/home/nikita/671533/github_search/app/controllers/github_apis_controller.rb:4: syntax error, unexpected tLABEL
+  	https://api.github.com/search/code?q=@keyword+user:@user
+  	                                                   ^):
+  app/controllers/github_apis_controller.rb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/controllers/github_apis_controller.rb:4: syntax error, unexpected tLABEL
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (76.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-31 13:15:51 +0530
+Processing by GithubApisController#search as HTML
+  Rendered github_apis/search.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 421ms (Views: 420.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:16:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#search as HTML
+  Rendered github_apis/search.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 295ms (Views: 284.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d177626c3542e0835c25d99021892eee24c5daa7ad0c5971064c37696aad802.css?body=1" for 192.168.225.1 at 2015-07-31 13:16:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 13:16:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 13:16:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 13:16:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 13:16:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 13:16:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 13:16:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 13:16:57 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 13:16:57 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.4ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 18ms (Views: 0.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:17:00 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#search as HTML
+  Rendered github_apis/search.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 106ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 13:17:01 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 13:17:02 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/delete?id=62" for 192.168.225.1 at 2015-07-31 13:17:09 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"62"}
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1  [["id", 62]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "keywords" WHERE "keywords"."id" = ?  [["id", 62]]
+  [1m[36m (153.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.5ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 262ms (Views: 0.1ms | ActiveRecord: 154.3ms)
+
+
+Started GET "/delete?id=70" for 192.168.225.1 at 2015-07-31 13:17:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"70"}
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1[0m  [["id", 70]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "keywords" WHERE "keywords"."id" = ?[0m  [["id", 70]]
+  [1m[35m (32.7ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 37ms (Views: 0.1ms | ActiveRecord: 33.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:17:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#search as HTML
+  Rendered github_apis/search.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 83ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:19:09 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#search as HTML
+  Rendered github_apis/search.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 57ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:19:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#search as HTML
+  Rendered github_apis/search.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:20:17 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#search as HTML
+  Rendered github_apis/search.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:20:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#search as HTML
+  Rendered github_apis/search.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:20:21 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#search as HTML
+  Rendered github_apis/search.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 108ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:20:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (21.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1398ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:21:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1212ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d177626c3542e0835c25d99021892eee24c5daa7ad0c5971064c37696aad802.css?body=1" for 192.168.225.1 at 2015-07-31 13:21:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:21:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1292ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 13:21:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-9d177626c3542e0835c25d99021892eee24c5daa7ad0c5971064c37696aad802.css?body=1" for 192.168.225.1 at 2015-07-31 13:21:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:24:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (20.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1290ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:24:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1002ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:24:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 1185ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    1: <h1>GithubApis#index</h1>
+    2: 
+    3: <p>Total Count = <%= @github_info["total_count"] %></p>
+    4: <p>File Name =  <%= @github_info["items"]["name"] %></p>
+  app/views/github_apis/index.html.erb:4:in `[]'
+  app/views/github_apis/index.html.erb:4:in `_app_views_github_apis_index_html_erb__401976029__622951288'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:25:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 1193ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/nikita/671533/github_search/app/views/github_apis/index.html.erb:4: syntax error, unexpected '[', expecting '('
+...ppend=( @github_info["items"].["name"] );@output_buffer.safe...
+...                               ^
+/home/nikita/671533/github_search/app/views/github_apis/index.html.erb:4: syntax error, unexpected ']', expecting ')'
+... @github_info["items"].["name"] );@output_buffer.safe_append...
+...                               ^
+/home/nikita/671533/github_search/app/views/github_apis/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting ')'
+/home/nikita/671533/github_search/app/views/github_apis/index.html.erb:9: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/github_apis/index.html.erb:4: syntax error, unexpected '[', expecting '('
+  app/views/github_apis/index.html.erb:4: syntax error, unexpected ']', expecting ')'
+  app/views/github_apis/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/github_apis/index.html.erb:9: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:26:22 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1005ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 13:26:44 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1214ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 14:07:17 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+Completed 500 Internal Server Error in 2827ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Hash into Integer):
+  app/controllers/github_apis_controller.rb:12:in `[]'
+  app/controllers/github_apis_controller.rb:12:in `block in index'
+  app/controllers/github_apis_controller.rb:11:in `each'
+  app/controllers/github_apis_controller.rb:11:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 14:08:03 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 2736ms (Views: 345.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 14:10:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+Completed 500 Internal Server Error in 3835ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `<<' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:13:in `block in index'
+  app/controllers/github_apis_controller.rb:11:in `each'
+  app/controllers/github_apis_controller.rb:11:in `each_with_index'
+  app/controllers/github_apis_controller.rb:11:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (46.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 14:11:18 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1054ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 14:15:23 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 2041ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 14:21:57 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 2210ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 14:22:56 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (1540.0ms)
+Completed 200 OK in 22777ms (Views: 11308.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 14:26:01 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 1254ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 14:27:23 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (112.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1365ms (Views: 181.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:00:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 1469ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:03:08 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1277ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d177626c3542e0835c25d99021892eee24c5daa7ad0c5971064c37696aad802.css?body=1" for 192.168.225.1 at 2015-07-31 15:03:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 15:03:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 15:03:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 15:03:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 15:03:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 15:03:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 15:03:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:05:03 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1566ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:09:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1285ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:14:16 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1261ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:14:37 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 3286ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d177626c3542e0835c25d99021892eee24c5daa7ad0c5971064c37696aad802.css?body=1" for 192.168.225.1 at 2015-07-31 15:14:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 15:14:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 15:14:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 15:14:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 15:14:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 15:14:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 15:14:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:17:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 1283ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d177626c3542e0835c25d99021892eee24c5daa7ad0c5971064c37696aad802.css?body=1" for 192.168.225.1 at 2015-07-31 15:17:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 15:17:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 15:17:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 15:17:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 15:17:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 15:17:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 15:17:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:18:04 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 10565ms (Views: 9564.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6b568677c05e7e686a526a301017b1b495416ef3aedf35c972efb7f75d442f17.css?body=1" for 192.168.225.1 at 2015-07-31 15:18:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:18:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 3260ms (Views: 2135.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-23217e88dd35e0da73d4acb409e8e5225d0bd1dcb90aae818a9cf7b94b3ebfcd.css?body=1" for 192.168.225.1 at 2015-07-31 15:18:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:18:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 3404ms (Views: 2245.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-81b7f649ab197f834ba23b77646115883b441ead1c73fdad82cca82789ff02c7.css?body=1" for 192.168.225.1 at 2015-07-31 15:18:57 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:19:00 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1152ms (Views: 121.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 15:19:02 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 156ms (Views: 155.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 15:19:04 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (1.1ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 15ms (Views: 0.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 15:19:22 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 15:19:23 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:19:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1238ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:20:18 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 1299ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:21:06 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1404ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 15:21:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 156ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 15:21:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:21:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1030ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 15:21:18 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 15:21:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.5ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:21:22 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1183ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:21:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1493ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:23:05 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1204ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:23:09 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1087ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 15:23:12 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 15:23:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:23:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1043ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:23:31 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1245ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:25:37 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1660ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:25:53 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 3035ms (Views: 1733.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-102c8c3725946ff6761eede45717d2f2b4c8fea7eab3e5e446b0ce7ff8ada9c5.css?body=1" for 192.168.225.1 at 2015-07-31 15:25:56 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 15:25:59 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 119ms (Views: 118.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 15:26:00 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.8ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/add?keyword=%20adsddadasdadasdasdasdasdasdas" for 192.168.225.1 at 2015-07-31 15:26:06 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" adsddadasdadasdasdasdasdasdas"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["keyword", "adsddadasdadasdasdasdasdasdas"], ["created_at", "2015-07-31 09:56:06.994543"], ["updated_at", "2015-07-31 09:56:06.994543"]]
+  [1m[35m (51.3ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 120ms (Views: 0.1ms | ActiveRecord: 52.2ms)
+
+
+Started GET "/delete?id=71" for 192.168.225.1 at 2015-07-31 15:26:08 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"71"}
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1  [["id", 71]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "keywords" WHERE "keywords"."id" = ?  [["id", 71]]
+  [1m[36m (52.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 57ms (Views: 0.1ms | ActiveRecord: 53.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:26:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1554ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:29:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1223ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:29:59 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1842ms (Views: 492.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 15:42:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1327ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:05:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1273ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:06:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1256ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:07:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 1227ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:07:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1081ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:07:59 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1222ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:08:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1211ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:08:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1085ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:08:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1131ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:08:16 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1070ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:08:18 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1057ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d177626c3542e0835c25d99021892eee24c5daa7ad0c5971064c37696aad802.css?body=1" for 192.168.225.1 at 2015-07-31 16:08:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 16:08:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 16:08:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 16:08:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 16:08:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 16:08:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 16:08:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:09:31 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1214ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:09:43 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 77ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:09:44 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:09:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 1046ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:10:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 2891ms (Views: 1759.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d0577397b40211b2d28cd90d05f4090e912531f214ba51fd3990b547483bc74c.css?body=1" for 192.168.225.1 at 2015-07-31 16:10:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 16:10:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 16:10:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 16:10:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 16:10:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 16:10:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 16:10:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:10:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 92ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:10:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:10:52 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1586ms (Views: 1584.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f04d3959db5c6bcf9f4fac250fdff0b5e5a5b285de8b963a4d09d420fd333390.css?body=1" for 192.168.225.1 at 2015-07-31 16:10:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:10:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:10:57 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1191ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:11:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2631ms (Views: 1670.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f0955fc4d324e21ad156d87b7eaaf1deb02f0edff8e0f99273f9d0528a94c75c.css?body=1" for 192.168.225.1 at 2015-07-31 16:11:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:11:17 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1016ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:11:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 1279ms (Views: 295.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:11:29 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 73ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:11:29 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:11:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1232ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:11:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2530ms (Views: 1584.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-edb8e5cc5686c544dbfdf3007952650e2c1f1ad14dfa1d51d929cafec3e2dc70.css?body=1" for 192.168.225.1 at 2015-07-31 16:11:52 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:11:53 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 93ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:11:53 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.6ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:12:08 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1789ms (Views: 1788.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6d15aa3ec16ae20b6c36be426545278ee7caf751f207433761a4b03a853c8d24.css?body=1" for 192.168.225.1 at 2015-07-31 16:12:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:12:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:12:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1325ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:12:21 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2596ms (Views: 1627.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6d6bc860440dc9076bb07acd3800fd6736267366e48988d8c1a8b948be7476f5.css?body=1" for 192.168.225.1 at 2015-07-31 16:12:23 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:12:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2795ms (Views: 1814.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-30a884c9d80a95ae7f7c2b40d56802dfe2d9568288140d101d2d3aed2d8c248c.css?body=1" for 192.168.225.1 at 2015-07-31 16:12:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:12:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2780ms (Views: 1609.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4decdbc004bc53b3c932c8adcb0db0a4b59f3da2a368a744b4171bb81c729356.css?body=1" for 192.168.225.1 at 2015-07-31 16:12:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:12:59 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2808ms (Views: 1698.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ef131d7358d328d3903641fd6821245415c2899afc3cf845c742e695502377dc.css?body=1" for 192.168.225.1 at 2015-07-31 16:13:01 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:13:38 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2877ms (Views: 1648.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2bc4e585c0983acd582b182b84b3d3766b359e92205b478b053ec49c0ff7bd3f.css?body=1" for 192.168.225.1 at 2015-07-31 16:13:41 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:13:43 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:13:43 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:13:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1317ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:14:12 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 2742ms (Views: 1551.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b392636c2902e6ca690b7f3f23dba1f6308ae79d81b7f08377fdea31aab267e3.css?body=1" for 192.168.225.1 at 2015-07-31 16:14:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:14:16 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 67ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:14:16 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.5ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:14:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1044ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:14:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2710ms (Views: 1638.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-702641c0c77bc7226b6932bd6d39a2e78e309b87722b4bd2a3184fe0faef37c4.css?body=1" for 192.168.225.1 at 2015-07-31 16:14:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 16:14:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:14:57 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2841ms (Views: 1635.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1cab666f20f56fcaee3b2241a7e9f8362431feb4f8f49023c1b348eb89ec68fe.css?body=1" for 192.168.225.1 at 2015-07-31 16:15:00 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:15:56 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2691ms (Views: 1550.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-025d534d891e60c4c42b6226d0495a2963facfa24416f317cb866d540bf143c7.css?body=1" for 192.168.225.1 at 2015-07-31 16:15:59 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:16:23 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2899ms (Views: 1662.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a24fa8badcb1ca2831fcbc644f9a8c0298ea8ece9a5b21998fa32bb81c58f0ee.css?body=1" for 192.168.225.1 at 2015-07-31 16:16:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 16:16:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 16:16:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 16:16:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 16:16:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 16:16:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 16:16:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:16:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1056ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:16:28 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1204ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:16:29 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:16:29 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:16:31 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1021ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:16:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2670ms (Views: 1735.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3d689871be13d81ded1cd3198ec43e09822c56289b5aed57475201f7ef495a88.css?body=1" for 192.168.225.1 at 2015-07-31 16:16:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:16:51 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:16:52 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:16:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1035ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:17:31 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 3058ms (Views: 1692.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bdaa29af6f181c849d473a3e2db45ba91864908165af317e371ca1e4b51ff64d.css?body=1" for 192.168.225.1 at 2015-07-31 16:17:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:17:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2891ms (Views: 1642.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3bfb03ced8b0821d43f75cc0b15d53755825c8b31c55edece3647b84d39f3f3f.css?body=1" for 192.168.225.1 at 2015-07-31 16:17:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-07-31 16:17:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:17:51 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1308ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 16:17:53 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 121ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 16:17:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (35.8ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 169ms (Views: 0.1ms | ActiveRecord: 35.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:17:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1310ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:18:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2990ms (Views: 1665.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-027eb096bd1f0384587d47fab89f69bf331381f41e182d59ac812831fddc3219.css?body=1" for 192.168.225.1 at 2015-07-31 16:18:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 16:19:23 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1271ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 17:34:18 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 1567ms (Views: 1566.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 17:34:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (4.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/add?keyword=%20asdassas" for 192.168.225.1 at 2015-07-31 17:34:22 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" asdassas"}
+  [1m[36m (2.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "asdassas"], ["created_at", "2015-07-31 12:04:22.853987"], ["updated_at", "2015-07-31 12:04:22.853987"]]
+  [1m[36m (15.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 35ms (Views: 0.1ms | ActiveRecord: 19.5ms)
+
+
+Started GET "/delete?id=72" for 192.168.225.1 at 2015-07-31 17:34:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"72"}
+  [1m[36mKeyword Load (1.0ms)[0m  [1mSELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1[0m  [["id", 72]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "keywords" WHERE "keywords"."id" = ?[0m  [["id", 72]]
+  [1m[35m (9.7ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 36ms (Views: 0.3ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/delete?id=63" for 192.168.225.1 at 2015-07-31 17:34:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"63"}
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1  [["id", 63]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "keywords" WHERE "keywords"."id" = ?  [["id", 63]]
+  [1m[36m (5.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 17:34:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 1578ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 17:34:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 17:34:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 17:34:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1140ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 17:34:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 92ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 17:34:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/add?keyword=%20tfytfytytryty" for 192.168.225.1 at 2015-07-31 17:34:53 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" tfytfytytryty"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "tfytfytytryty"], ["created_at", "2015-07-31 12:04:53.950081"], ["updated_at", "2015-07-31 12:04:53.950081"]]
+  [1m[36m (34.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 40ms (Views: 0.1ms | ActiveRecord: 35.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 17:35:05 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1276ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 17:35:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 64ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 17:35:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 17:35:28 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1263ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-07-31 17:42:21 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 290ms (Views: 279.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-07-31 17:42:22 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/delete?id=73" for 192.168.225.1 at 2015-07-31 17:42:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"73"}
+  [1m[36mKeyword Load (0.5ms)[0m  [1mSELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1[0m  [["id", 73]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "keywords" WHERE "keywords"."id" = ?[0m  [["id", 73]]
+  [1m[35m (106.7ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 128ms (Views: 0.1ms | ActiveRecord: 108.4ms)
+
+
+Started POST "/add?keyword=%20wrerwerw" for 192.168.225.1 at 2015-07-31 17:42:32 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" wrerwerw"}
+  [1m[35m (0.8ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["keyword", "wrerwerw"], ["created_at", "2015-07-31 12:12:32.278308"], ["updated_at", "2015-07-31 12:12:32.278308"]]
+  [1m[35m (38.9ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 49ms (Views: 0.1ms | ActiveRecord: 40.4ms)
+
+
+Started POST "/add?keyword=%20dffsdfd" for 192.168.225.1 at 2015-07-31 17:42:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" dffsdfd"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["keyword", "dffsdfd"], ["created_at", "2015-07-31 12:12:33.930976"], ["updated_at", "2015-07-31 12:12:33.930976"]]
+  [1m[35m (43.7ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 49ms (Views: 0.1ms | ActiveRecord: 44.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-07-31 17:42:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1232ms (Views: 65.4ms | ActiveRecord: 0.0ms)

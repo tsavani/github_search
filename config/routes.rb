@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   # get 'github_apis/index'
 
-  root 'github_apis#search'
+  root 'github_apis#index'
 
   resources :github_apis, only: [:search, :index]
   resources :keywords, only: [:index]
