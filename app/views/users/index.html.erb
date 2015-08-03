@@ -1,0 +1,20 @@
+
+<form id="form" enctype="multipart/form-data" remote="true" accept-charset="ISO-8859-1">
+ <div class="row">
+  <div id="profile">
+  <h2><p>Add Users</p></h2>
+    <table>
+      <tr>
+      <td><%= text_field_tag :user %>
+      <input type="button" value="Add" id="add_user" class= "btn btn-xs btn-primary" /></td>
+      <td><div id="error"></div></td>
+      </tr>
+    </table>
+    <br />
+      <div id="users_list"> 
+        <table class="table table-striped datatable"></table> 
+    </div>
+   </div>
+ </div>
+</form>
+

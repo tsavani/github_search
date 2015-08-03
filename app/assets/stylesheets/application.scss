@@ -13,7 +13,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+
  *= require_self
  */
 
@@ -37,23 +37,6 @@ a.btn.btn-primary{
 .navbar-header-right{
 	float: right;
 	
-}
-/*
-table{
-  width:50%;
-	border:1;
-}
-
-td{
-	width: 40%;
-	height: 50px;
-}*/
-
-.table {
-    width: 60%;
-    td {
-      width: 80%;
-    }
 }
 
 hr {

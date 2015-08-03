@@ -1,27 +1,31 @@
 <h1>Github Search</h1>
-
+<h2><%= @hi %></h2>
 <div id="gethub_search"> 
-				<% if @count != 0 %>
-        <table class="table table-striped datatable">
-        	<tr>
-        		<th>No</th>
-        		<th>Repository</th>
-        		<th>File Name</th>
-        		<th>Path</th>
-        		<th>URL</th>
-        	</tr>
-        	<% @count.times do |index| %>
-        	<tr>
-        		<td><%= index+1 %></td>
-        		<td><%= @repository[index] %></td>
-        		<td><%= @file_name[index] %></td>
-        		<td><%= @path[index] %></td>
-        		<td><%= @html_url[index] %></td>
-        	</tr>
-        	<% end %>
-        </table> 
-        <% end %>
-    </div>
+		<% if @count != 0 %>
+    <table class="table table-striped datatable">
+    	<tr>
+    		<th>No</th>
+    		<th>User</th>
+    		<th>Keyword</th>
+    		<th>Repository</th>
+    		<!-- <th>File Name</th>
+    		<th>Path</th> -->
+    		<th>URL</th>
+    	</tr>
+    	<% @count.times do |index| %>
+    	<tr>
+    		<td><%= index+1 %></td>
+    		<td><%= link_to @user[index], @user_link[index], :target => "_blank" %></td>
+    		<td><%= @key[index] %></td>
+    		<td><%= @repository[index] %></td>
+    	<!-- 	<td><%#= @file_name[index] %></td>
+    		<td><%#= @path[index] %></td> -->
+    		<td><%= link_to @html_url[index], @html_url[index], :target => "_blank" %></td>
+    	</tr>
+    	<% end %>
+    </table> 
+    <% end %>
+</div>
 
 <!-- <p>Total Count = <%= @total_count %> </p>
 

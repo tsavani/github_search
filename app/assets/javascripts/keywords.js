@@ -11,7 +11,7 @@
 
 $(document).ready(function(){
 //it will run at the time of page loading...
-console.log("loaded");
+//alert("keyword");
     document.getElementById("keyword").value = " " ;
     $("#error").html('');
     document.charset = 'ISO-8859-1';

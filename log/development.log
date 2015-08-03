@@ -14308,3 +14308,2572 @@ Processing by GithubApisController#index as HTML
   Rendered github_apis/index.html.erb within layouts/application (4.4ms)
   Rendered layouts/_header.html.erb (0.4ms)
 Completed 200 OK in 1232ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 15:26:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 4007ms (Views: 620.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3d689871be13d81ded1cd3198ec43e09822c56289b5aed57475201f7ef495a88.css?body=1" for 192.168.225.1 at 2015-08-03 15:26:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-03 15:26:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-03 15:26:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-08-03 15:26:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-03 15:26:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-08-03 15:26:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-03 15:26:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 15:32:05 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  Rendered github_apis/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 5713ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+  [1m[36mKeyword Load (6.8ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+  [1m[35mKeyword Load (0.8ms)[0m  SELECT "keywords".* FROM "keywords"
+  [1m[36mKeyword Load (3.0ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+  [1m[35mKeyword Load (0.5ms)[0m  SELECT "keywords".* FROM "keywords"
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 15:41:44 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 15:41:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.6ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/delete?id=61" for 192.168.225.1 at 2015-08-03 15:41:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"61"}
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1[0m  [["id", 61]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "keywords" WHERE "keywords"."id" = ?[0m  [["id", 61]]
+  [1m[35m (46.5ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 131ms (Views: 0.1ms | ActiveRecord: 47.8ms)
+
+
+Started GET "/delete?id=74" for 192.168.225.1 at 2015-08-03 15:41:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"74"}
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1  [["id", 74]]
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "keywords" WHERE "keywords"."id" = ?  [["id", 74]]
+  [1m[36m (41.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 55ms (Views: 0.3ms | ActiveRecord: 42.9ms)
+
+
+Started GET "/delete?id=75" for 192.168.225.1 at 2015-08-03 15:41:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#delete as */*
+  Parameters: {"id"=>"75"}
+  [1m[36mKeyword Load (0.1ms)[0m  [1mSELECT  "keywords".* FROM "keywords" WHERE "keywords"."id" = ? LIMIT 1[0m  [["id", 75]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "keywords" WHERE "keywords"."id" = ?[0m  [["id", 75]]
+  [1m[35m (32.1ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 35ms (Views: 0.1ms | ActiveRecord: 32.6ms)
+
+
+Started POST "/add?keyword=%20parking" for 192.168.225.1 at 2015-08-03 15:41:52 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" parking"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["keyword", "parking"], ["created_at", "2015-08-03 10:11:52.393033"], ["updated_at", "2015-08-03 10:11:52.393033"]]
+  [1m[35m (35.3ms)[0m  commit transaction
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 54ms (Views: 0.1ms | ActiveRecord: 36.4ms)
+
+
+Started GET "/keywords?keyword=+ruby" for 192.168.225.1 at 2015-08-03 15:41:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Parameters: {"keyword"=>" ruby"}
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 89ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 15:41:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/add?keyword=%20ruby" for 192.168.225.1 at 2015-08-03 15:41:59 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" ruby"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (7.7ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "ruby"], ["created_at", "2015-08-03 10:11:59.442430"], ["updated_at", "2015-08-03 10:11:59.442430"]]
+  [1m[36m (62.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 76ms (Views: 0.1ms | ActiveRecord: 70.9ms)
+
+
+Started POST "/add?keyword=%20mckinsey" for 192.168.225.1 at 2015-08-03 15:42:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#add as */*
+  Parameters: {"keyword"=>" mckinsey"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "keywords" ("keyword", "created_at", "updated_at") VALUES (?, ?, ?)  [["keyword", "mckinsey"], ["created_at", "2015-08-03 10:12:11.116750"], ["updated_at", "2015-08-03 10:12:11.116750"]]
+  [1m[36m (74.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 76.1ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 15:43:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.7ms)
+
+NoMethodError (undefined method `each_with_index' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:18:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.9ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 15:43:44 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (3.8ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  Rendered github_apis/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 3084ms (ActiveRecord: 4.3ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    14:         	<% @count.times do |index| %>
+    15:         	<tr>
+    16:         		<td><%= index+1 %></td>
+    17:         		<td><%= @keyword[index] %></td>
+    18:         		<td><%= @repository[index] %></td>
+    19:         		<td><%= @file_name[index] %></td>
+    20:         		<td><%= @path[index] %></td>
+  app/views/github_apis/index.html.erb:17:in `block in _app_views_github_apis_index_html_erb___846861619_98564100'
+  app/views/github_apis/index.html.erb:14:in `times'
+  app/views/github_apis/index.html.erb:14:in `_app_views_github_apis_index_html_erb___846861619_98564100'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 15:44:07 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  Rendered github_apis/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 3493ms (Views: 109.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-3d689871be13d81ded1cd3198ec43e09822c56289b5aed57475201f7ef495a88.css?body=1" for 192.168.225.1 at 2015-08-03 15:44:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 15:44:44 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  Rendered github_apis/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 3395ms (Views: 83.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-3d689871be13d81ded1cd3198ec43e09822c56289b5aed57475201f7ef495a88.css?body=1" for 192.168.225.1 at 2015-08-03 15:44:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/keywords.self-43034562b05caec9225c5c02da0fbd201f318045ad628cc4341b64051aad1dea.js?body=1" for 192.168.225.1 at 2015-08-03 15:44:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150803101900)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150803101900"]]
+  [1m[36m (37.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 15:59:04 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  Rendered github_apis/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 4385ms (Views: 484.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/users.self-f9e91b0cf31151d084509f6d9846f8a54350792ba4e8c34bcce32f18f221e93c.js?body=1" for 192.168.225.1 at 2015-08-03 15:59:08 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 15:59:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 112ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:00:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:00:52 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 113ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:00:53 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:00:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:00:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 93ms (Views: 92.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:00:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (1.1ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:00:56 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:00:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 83ms (Views: 82.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:00:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.7ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:00:59 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:01:00 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:01:01 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:01:02 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:02:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 148ms (Views: 146.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-934e97d82967dd22952735f8c4d111d643c5fe71f4f0cadf8837e13fea7e3113.js?body=1" for 192.168.225.1 at 2015-08-03 16:02:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:02:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  Rendered github_apis/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 4559ms (Views: 77.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:02:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 99ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:02:56 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:02:57 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 112ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:03:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 210ms (Views: 208.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-3c50ea385724111271dd7654f7ea6579445fabcaddd9ce4c3dc4ccac1928f73c.js?body=1" for 192.168.225.1 at 2015-08-03 16:03:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:03:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:03:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 92ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:05:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 169ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-d4b9665adf02051dc872cec9dac70b86a5e43d72a863a36efa268aa647f53502.js?body=1" for 192.168.225.1 at 2015-08-03 16:05:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:05:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  Rendered github_apis/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 3817ms (Views: 52.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:05:31 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 86ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:05:32 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:05:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:05:37 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:05:38 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.3ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:05:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 107ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:06:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  Rendered github_apis/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 4579ms (Views: 515.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/keywords.self-e0d084dca6f042cd656e37854a8c785fe0b978754f62dd4d43ddd29a19876f1e.js?body=1" for 192.168.225.1 at 2015-08-03 16:06:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-9c9cf2bf2c100c60639841bdf1074a4a19f1a5567aaedeb5d811672ef15c58a8.js?body=1" for 192.168.225.1 at 2015-08-03 16:06:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:06:57 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:06:59 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:07:01 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 58ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:07:37 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  Rendered github_apis/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 3272ms (Views: 73.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:08:00 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  Rendered github_apis/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 3810ms (Views: 77.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:08:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:08:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.5ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:10:05 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (13.6ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( keywords.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= javascript_include_tag 'keywords' %>
+    2: <form id="form1" enctype="multipart/form-data" remote="true" accept-charset="ISO-8859-1">
+    3:  <div class="row">
+    4:   <div id="profile">
+  app/views/keywords/index.html.erb:1:in `_app_views_keywords_index_html_erb__184051160__627114138'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.3ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:10:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (194.1ms)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( keywords.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= javascript_include_tag 'keywords' %>
+    2: <form id="form1" enctype="multipart/form-data" remote="true" accept-charset="ISO-8859-1">
+    3:  <div class="row">
+    4:   <div id="profile">
+  app/views/keywords/index.html.erb:1:in `_app_views_keywords_index_html_erb___197087749_72178910'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.1ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:11:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( keywords.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= javascript_include_tag 'keywords.js' %>
+    2: <form id="form1" enctype="multipart/form-data" remote="true" accept-charset="ISO-8859-1">
+    3:  <div class="row">
+    4:   <div id="profile">
+  app/views/keywords/index.html.erb:1:in `_app_views_keywords_index_html_erb___197087749__630879768'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.7ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:11:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( keywords.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= javascript_include_tag 'keywords.js' %>
+    2: <form id="form1" enctype="multipart/form-data" remote="true" accept-charset="ISO-8859-1">
+    3:  <div class="row">
+    4:   <div id="profile">
+  app/views/keywords/index.html.erb:1:in `_app_views_keywords_index_html_erb___197087749__630879768'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.9ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:11:37 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( keywords.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= javascript_include_tag 'keywords.js' %>
+    2: <form id="form1" enctype="multipart/form-data" remote="true" accept-charset="ISO-8859-1">
+    3:  <div class="row">
+    4:   <div id="profile">
+  app/views/keywords/index.html.erb:1:in `_app_views_keywords_index_html_erb___197087749__630879768'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.1ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:11:38 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( keywords.js )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= javascript_include_tag 'keywords.js' %>
+    2: <form id="form1" enctype="multipart/form-data" remote="true" accept-charset="ISO-8859-1">
+    3:  <div class="row">
+    4:   <div id="profile">
+  app/views/keywords/index.html.erb:1:in `_app_views_keywords_index_html_erb___197087749__630879768'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.7ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:16:04 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 190ms (Views: 189.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-f226ae186bfe1d7619702c85d24b93d9cc86a3a66a89eface66ea82c31e7c590.js?body=1" for 192.168.225.1 at 2015-08-03 16:16:04 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:16:05 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.4ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:16:08 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:16:12 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:22:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  Rendered github_apis/index.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 5589ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( github_apis.css )` to `config/initializers/assets.rb` and restart your server):
+     6:   <%#= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:  -->
+     8:   <%= stylesheet_link_tag "application", params[:controller], :media => "all" %>
+     9:   <%= javascript_include_tag "application", params[:controller] %>
+    10:   
+    11:   <%= csrf_meta_tags %>
+    12: </head>
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__852918856_94986500'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:23:09 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.6ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  Rendered github_apis/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 3741ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( github_apis.css )` to `config/initializers/assets.rb` and restart your server):
+     6:   <%#= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:  -->
+     8:   <%= stylesheet_link_tag "application", params[:controller], :media => "all" %>
+     9:   <%= javascript_include_tag "application", params[:controller] %>
+    10:   
+    11:   <%= csrf_meta_tags %>
+    12: </head>
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__852918856_94986500'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:23:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  Rendered github_apis/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 3599ms (Views: 373.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-4e599fbdcd2f45415f931dd40e592b7e55c1e921ec213889128b31b0d01d08a1.css?body=1" for 192.168.225.1 at 2015-08-03 16:23:28 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.225.1 at 2015-08-03 16:23:28 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:23:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 133ms (Views: 132.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.225.1 at 2015-08-03 16:23:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:23:32 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.6ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 26ms (Views: 0.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:23:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 127ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.225.1 at 2015-08-03 16:23:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:23:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'get_data' could not be found for UsersController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.text.erb (0.4ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:23:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 120ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:23:41 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.4ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:24:21 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:24:23 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'get_data' could not be found for UsersController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.text.erb (1.7ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:24:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:24:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'get_data' could not be found for UsersController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.text.erb (0.5ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:25:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:25:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/add_user?user=%20sefsef" for 192.168.225.1 at 2015-08-03 16:25:43 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'add' could not be found for UsersController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.text.erb (0.5ms)
+
+
+Started POST "/add_user?user=%20sefsef" for 192.168.225.1 at 2015-08-03 16:25:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'add' could not be found for UsersController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.text.erb (0.8ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:28:42 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (6.1ms)
+Completed 200 OK in 323ms (Views: 311.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-7bcea047d04b7ba88f896752105bfa07bf977d6f9cafadac5c863b3999f74897.js?body=1" for 192.168.225.1 at 2015-08-03 16:28:43 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:28:44 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/add_user?user=%20dfdasas" for 192.168.225.1 at 2015-08-03 16:28:46 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'add' could not be found for UsersController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nikita/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.text.erb (0.7ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:30:38 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+Completed 200 OK in 363ms (Views: 351.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:30:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/add_user?user=%20asdasdas" for 192.168.225.1 at 2015-08-03 16:30:41 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#add_user as */*
+  Parameters: {"user"=>" asdasdas"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.8ms)
+
+ActiveRecord::UnknownAttributeError (unknown attribute 'keyword' for User.):
+  app/controllers/users_controller.rb:10:in `add_user'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (20.3ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:31:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 94ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:31:17 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/add_user?user=%20fgfgff" for 192.168.225.1 at 2015-08-03 16:31:18 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#add_user as */*
+  Parameters: {"user"=>" fgfgff"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "users" ("user", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user", "fgfgff"], ["created_at", "2015-08-03 11:01:18.333770"], ["updated_at", "2015-08-03 11:01:18.333770"]]
+  [1m[35m (38.5ms)[0m  commit transaction
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 55ms (Views: 0.2ms | ActiveRecord: 40.7ms)
+
+
+Started POST "/add_user?user=%20dfsdfsdfsdf" for 192.168.225.1 at 2015-08-03 16:31:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#add_user as */*
+  Parameters: {"user"=>" dfsdfsdfsdf"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("user", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user", "dfsdfsdfsdf"], ["created_at", "2015-08-03 11:01:20.272959"], ["updated_at", "2015-08-03 11:01:20.272959"]]
+  [1m[35m (81.1ms)[0m  commit transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 87ms (Views: 0.2ms | ActiveRecord: 81.9ms)
+
+
+Started POST "/add_user?user=%20sdfsdfsdf" for 192.168.225.1 at 2015-08-03 16:31:21 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#add_user as */*
+  Parameters: {"user"=>" sdfsdfsdf"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("user", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user", "sdfsdfsdf"], ["created_at", "2015-08-03 11:01:21.676648"], ["updated_at", "2015-08-03 11:01:21.676648"]]
+  [1m[35m (255.0ms)[0m  commit transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 259ms (Views: 0.1ms | ActiveRecord: 255.5ms)
+
+
+Started GET "/delete_user?id=2" for 192.168.225.1 at 2015-08-03 16:31:22 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#delete_user as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 2]]
+  [1m[36m (22.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (6.5ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 39ms (Views: 0.1ms | ActiveRecord: 29.7ms)
+
+
+Started GET "/delete_user?id=1" for 192.168.225.1 at 2015-08-03 16:31:23 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#delete_user as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[35m (9.1ms)[0m  commit transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 35ms (Views: 0.1ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/delete_user?id=3" for 192.168.225.1 at 2015-08-03 16:31:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#delete_user as */*
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 3]]
+  [1m[36m (47.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 48.3ms)
+
+
+Started POST "/add_user?user=%20twinks14" for 192.168.225.1 at 2015-08-03 16:32:56 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#add_user as */*
+  Parameters: {"user"=>" twinks14"}
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("user", "created_at", "updated_at") VALUES (?, ?, ?)  [["user", "twinks14"], ["created_at", "2015-08-03 11:02:56.566916"], ["updated_at", "2015-08-03 11:02:56.566916"]]
+  [1m[36m (65.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 72ms (Views: 0.2ms | ActiveRecord: 66.7ms)
+
+
+Started POST "/add_user?user=%20saurabh201189" for 192.168.225.1 at 2015-08-03 16:33:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#add_user as */*
+  Parameters: {"user"=>" saurabh201189"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("user", "created_at", "updated_at") VALUES (?, ?, ?)  [["user", "saurabh201189"], ["created_at", "2015-08-03 11:03:10.300519"], ["updated_at", "2015-08-03 11:03:10.300519"]]
+  [1m[36m (30.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 39ms (Views: 0.4ms | ActiveRecord: 31.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:37:03 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 6760ms (Views: 244.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:41:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 10871ms (Views: 74.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:42:05 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.5ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 4310ms (ActiveRecord: 0.8ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:25:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:23:in `each'
+  app/controllers/github_apis_controller.rb:23:in `block in index'
+  app/controllers/github_apis_controller.rb:22:in `each'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:42:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.3ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 6761ms (Views: 79.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:44:15 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.3ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 7148ms (Views: 268.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:44:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 4477ms (ActiveRecord: 0.7ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:25:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:23:in `each'
+  app/controllers/github_apis_controller.rb:23:in `block in index'
+  app/controllers/github_apis_controller.rb:22:in `each'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (33.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:44:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.3ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 950ms (ActiveRecord: 0.6ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:20:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:45:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 1157ms (ActiveRecord: 1.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:21:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:45:51 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 7612ms (Views: 63.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:46:38 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 4677ms (ActiveRecord: 0.9ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:25:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:23:in `each'
+  app/controllers/github_apis_controller.rb:23:in `block in index'
+  app/controllers/github_apis_controller.rb:22:in `each'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.6ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:47:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 7140ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    19:         		<td><%= @user[index] %></td>
+    20:         		<td><%= @key[index] %></td>
+    21:         		<td><%= @repository[index] %></td>
+    22:         	<!-- 	<td><%= @file_name[index] %></td>
+    23:         		<td><%= @path[index] %></td> -->
+    24:         		<td><%= @html_url[index] %></td>
+    25:         	</tr>
+  app/views/github_apis/index.html.erb:22:in `block in _app_views_github_apis_index_html_erb___888028020__635557748'
+  app/views/github_apis/index.html.erb:16:in `times'
+  app/views/github_apis/index.html.erb:16:in `_app_views_github_apis_index_html_erb___888028020__635557748'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.6ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:48:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 4931ms (ActiveRecord: 0.7ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:25:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:23:in `each'
+  app/controllers/github_apis_controller.rb:23:in `block in index'
+  app/controllers/github_apis_controller.rb:22:in `each'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.5ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:50:16 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e17c2bffab913cc981833553fa3ddd48d8be5a3dac82a9d328aedd0b13be2fcb.js?body=1" for 192.168.225.1 at 2015-08-03 16:50:17 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:50:17 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/delete_user?id=4" for 192.168.225.1 at 2015-08-03 16:50:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#delete_user as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 4]]
+  [1m[35m (58.5ms)[0m  commit transaction
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 76ms (Views: 0.1ms | ActiveRecord: 59.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:50:22 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 3227ms (Views: 63.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:50:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-d36f371ab117f44d1d6c6bcaec64ce6f83a07bd9800f87ae3953e6eab4dba778.js?body=1" for 192.168.225.1 at 2015-08-03 16:50:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:50:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:50:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 2920ms (Views: 79.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:50:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 108ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:50:47 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:51:28 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:51:28 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/add_user?user=%20twinks14" for 192.168.225.1 at 2015-08-03 16:51:32 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#add_user as */*
+  Parameters: {"user"=>" twinks14"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("user", "created_at", "updated_at") VALUES (?, ?, ?)  [["user", "twinks14"], ["created_at", "2015-08-03 11:21:32.327191"], ["updated_at", "2015-08-03 11:21:32.327191"]]
+  [1m[36m (66.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 82ms (Views: 0.1ms | ActiveRecord: 67.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:51:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 6719ms (Views: 102.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:51:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+Completed 500 Internal Server Error in 4790ms (ActiveRecord: 0.3ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:25:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:23:in `each'
+  app/controllers/github_apis_controller.rb:23:in `block in index'
+  app/controllers/github_apis_controller.rb:22:in `each'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (40.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:51:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.3ms)[0m  SELECT "users"."user" FROM "users"
+Completed 500 Internal Server Error in 919ms (ActiveRecord: 0.6ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:25:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:23:in `each'
+  app/controllers/github_apis_controller.rb:23:in `block in index'
+  app/controllers/github_apis_controller.rb:22:in `each'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:53:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 12319ms (Views: 88.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:56:04 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 6821ms (Views: 112.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 16:56:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 16:56:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 16:56:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 16:56:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:56:29 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.4ms)[0m  SELECT "users"."user" FROM "users"
+Completed 500 Internal Server Error in 8013ms (ActiveRecord: 0.7ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:27:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:23:in `each'
+  app/controllers/github_apis_controller.rb:23:in `block in index'
+  app/controllers/github_apis_controller.rb:22:in `each'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.1ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:56:44 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (10.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+Completed 500 Internal Server Error in 1085ms (ActiveRecord: 10.4ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:27:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:23:in `each'
+  app/controllers/github_apis_controller.rb:23:in `block in index'
+  app/controllers/github_apis_controller.rb:22:in `each'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:58:02 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 6417ms (Views: 52.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:58:53 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 7158ms (Views: 103.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:59:01 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 9879ms (Views: 82.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:59:12 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.3ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 7143ms (Views: 79.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:59:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 6428ms (Views: 101.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:59:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 6145ms (Views: 71.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:59:40 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 6571ms (Views: 67.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 16:59:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 6094ms (Views: 114.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:40:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 6147ms (Views: 78.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:46:09 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 6603ms (Views: 106.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:46:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.6ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 5823ms (Views: 321.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:46:42 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 5652ms (Views: 80.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 17:46:52 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 135ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/keywords.self-b78c0eb25084afba7181f5e13087083688733bc7e15b34e2318f5ebdc48fc705.css?body=1" for 192.168.225.1 at 2015-08-03 17:46:52 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 17:46:52 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 17:46:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-90694b6c6b0d75baf469ec255ccfd1f91488acc2c2e8cfc00713b78793dda904.css?body=1" for 192.168.225.1 at 2015-08-03 17:46:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 17:46:54 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 17:47:03 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 140ms (Views: 139.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-97fb601d50557132cffd4cd58959202cbfaa6090148e5314132b54af2a87a576.css?body=1" for 192.168.225.1 at 2015-08-03 17:47:03 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 17:47:03 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 17:49:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (8.4ms)
+Completed 200 OK in 88ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 17:49:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.3ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 17:49:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 98ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 17:49:35 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 17:49:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 17:49:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 17:49:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 17:49:37 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 17:49:37 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 17:49:38 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 17:49:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 81ms (Views: 79.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4e599fbdcd2f45415f931dd40e592b7e55c1e921ec213889128b31b0d01d08a1.css?body=1" for 192.168.225.1 at 2015-08-03 17:49:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-03 17:49:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-0204925205d6d7c1333a062c0a83a1857fb527f325ae295cd02bae8995a3f4f8.css?body=1" for 192.168.225.1 at 2015-08-03 17:49:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-03 17:49:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-03 17:49:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-03 17:49:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e17c2bffab913cc981833553fa3ddd48d8be5a3dac82a9d328aedd0b13be2fcb.js?body=1" for 192.168.225.1 at 2015-08-03 17:49:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 17:49:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 17:50:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 17:50:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.2ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 17:50:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 17:50:21 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:50:22 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (1.2ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 8008ms (Views: 85.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/github_apis.self-68ab019cde49f5f9cca27b92bf694bcf95a06f60bd13355237532b77fb09f36f.css?body=1" for 192.168.225.1 at 2015-08-03 17:50:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:51:08 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.4ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 6298ms (Views: 102.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-4e599fbdcd2f45415f931dd40e592b7e55c1e921ec213889128b31b0d01d08a1.css?body=1" for 192.168.225.1 at 2015-08-03 17:51:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-03 17:51:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-f0627fb44841237a9888a42d64a26bad5645c99ba71782c4e87a7bc0da302f2f.css?body=1" for 192.168.225.1 at 2015-08-03 17:51:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-03 17:51:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-03 17:51:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-03 17:51:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-08-03 17:51:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:52:13 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.3ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 5958ms (Views: 81.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-4e599fbdcd2f45415f931dd40e592b7e55c1e921ec213889128b31b0d01d08a1.css?body=1" for 192.168.225.1 at 2015-08-03 17:52:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-f0627fb44841237a9888a42d64a26bad5645c99ba71782c4e87a7bc0da302f2f.css?body=1" for 192.168.225.1 at 2015-08-03 17:52:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:19 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:52:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.4ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 5752ms (Views: 92.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/github_apis.self-57a625444139427587cbd385514a67cfac50254f4753daecd0f7b26f2bf75767.css?body=1" for 192.168.225.1 at 2015-08-03 17:52:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-4e599fbdcd2f45415f931dd40e592b7e55c1e921ec213889128b31b0d01d08a1.css?body=1" for 192.168.225.1 at 2015-08-03 17:52:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-08-03 17:52:33 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:53:51 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 7507ms (Views: 1661.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-0303f264dbdcc52c6e4d3ab1f067ffd3c0c2c88a6b4baf8c7dc8b301599c002f.css?body=1" for 192.168.225.1 at 2015-08-03 17:53:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-03 17:53:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-03 17:53:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-08-03 17:53:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-03 17:53:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-03 17:53:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-57a625444139427587cbd385514a67cfac50254f4753daecd0f7b26f2bf75767.css?body=1" for 192.168.225.1 at 2015-08-03 17:53:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:56:17 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 8048ms (Views: 1999.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-31289fd7f7e03affde043db2642bf109e164c42a68c89ec489212a5eaa8fc254.css?body=1" for 192.168.225.1 at 2015-08-03 17:56:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-03 17:56:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-57a625444139427587cbd385514a67cfac50254f4753daecd0f7b26f2bf75767.css?body=1" for 192.168.225.1 at 2015-08-03 17:56:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-03 17:56:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-03 17:56:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-03 17:56:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-08-03 17:56:25 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:57:04 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 6407ms (Views: 74.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 17:57:28 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 17:57:29 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 17:57:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 17:57:30 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[35mKeyword Load (0.2ms)[0m  SELECT "keywords".* FROM "keywords"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 17:57:32 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 6287ms (Views: 104.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 18:01:51 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 5907ms (Views: 97.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 18:02:53 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  Rendered github_apis/index.html.erb within layouts/application (18.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 6294ms (Views: 112.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 18:04:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 18:04:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 18:04:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 18:04:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 18:04:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 18:04:45 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.5ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-03 18:04:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-03 18:04:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/keywords" for 192.168.225.1 at 2015-08-03 18:05:09 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#index as HTML
+  Rendered keywords/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 95ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_data" for 192.168.225.1 at 2015-08-03 18:05:10 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by KeywordsController#get_data as */*
+  [1m[36mKeyword Load (0.4ms)[0m  [1mSELECT "keywords".* FROM "keywords"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-03 18:05:11 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.3ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 6399ms (Views: 60.9ms | ActiveRecord: 0.5ms)
