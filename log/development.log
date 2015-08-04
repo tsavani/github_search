@@ -16877,3 +16877,612 @@ Processing by GithubApisController#index as HTML
   Rendered github_apis/index.html.erb within layouts/application (7.8ms)
   Rendered layouts/_header.html.erb (0.5ms)
 Completed 200 OK in 6399ms (Views: 60.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 12:49:21 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (18.7ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 8033ms (Views: 1764.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 12:50:41 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 1203ms (ActiveRecord: 1.3ms)
+
+NoMethodError (undefined method `<<' for nil:NilClass):
+  app/controllers/github_apis_controller.rb:31:in `block (3 levels) in index'
+  app/controllers/github_apis_controller.rb:28:in `each'
+  app/controllers/github_apis_controller.rb:28:in `each_with_index'
+  app/controllers/github_apis_controller.rb:28:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:24:in `each'
+  app/controllers/github_apis_controller.rb:24:in `block in index'
+  app/controllers/github_apis_controller.rb:23:in `each'
+  app/controllers/github_apis_controller.rb:23:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 12:50:58 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (17.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 5868ms (Views: 102.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:07:59 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (uninitialized constant GithubApisController::Api):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:08:08 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (uninitialized constant GithubApisController::Api):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.9ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:08:34 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (undefined local variable or method `api' for GithubApisController:Class):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.9ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:08:36 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (undefined local variable or method `api' for GithubApisController:Class):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.1ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:08:37 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (undefined local variable or method `api' for GithubApisController:Class):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:08:53 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (undefined local variable or method `api' for GithubApisController:Class):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (50.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:08:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (undefined local variable or method `api' for GithubApisController:Class):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:08:56 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (undefined local variable or method `api' for GithubApisController:Class):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (54.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:10:42 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (undefined local variable or method `api' for GithubApisController:Class):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (63.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:10:43 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (undefined local variable or method `api' for GithubApisController:Class):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:11:00 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (uninitialized constant GithubApisController::Api):
+  app/controllers/github_apis_controller.rb:2:in `<class:GithubApisController>'
+  app/controllers/github_apis_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.1ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:13:07 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (25.6ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 200 OK in 6581ms (Views: 303.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.225.1 at 2015-08-04 13:13:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-31289fd7f7e03affde043db2642bf109e164c42a68c89ec489212a5eaa8fc254.css?body=1" for 192.168.225.1 at 2015-08-04 13:13:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-57a625444139427587cbd385514a67cfac50254f4753daecd0f7b26f2bf75767.css?body=1" for 192.168.225.1 at 2015-08-04 13:13:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.225.1 at 2015-08-04 13:13:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8a96ee5b0879584413ea213282e90546c5804b4d80a3104604110a6a4a477f44.js?body=1" for 192.168.225.1 at 2015-08-04 13:13:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.225.1 at 2015-08-04 13:13:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/github_apis.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.225.1 at 2015-08-04 13:13:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:13:50 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.9ms)
+
+NoMethodError (undefined method `github_search' for #<GithubApisController:0xbcd278c>):
+  app/controllers/github_apis_controller.rb:27:in `block (2 levels) in index'
+  app/controllers/github_apis_controller.rb:26:in `each'
+  app/controllers/github_apis_controller.rb:26:in `block in index'
+  app/controllers/github_apis_controller.rb:25:in `each'
+  app/controllers/github_apis_controller.rb:25:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:16:14 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 6004ms (Views: 97.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:16:31 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 5817ms (Views: 77.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:22:31 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 5945ms (Views: 75.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 13:26:26 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (13.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 6293ms (Views: 90.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:04:55 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.5ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 2112ms (ActiveRecord: 1.4ms)
+
+NameError (undefined local variable or method `data' for #<GithubApisController:0xb5642b74>):
+  app/controllers/github_apis_controller.rb:41:in `block in create_data_array'
+  app/controllers/github_apis_controller.rb:40:in `each'
+  app/controllers/github_apis_controller.rb:40:in `each_with_index'
+  app/controllers/github_apis_controller.rb:40:in `create_data_array'
+  app/controllers/github_apis_controller.rb:32:in `block (2 levels) in fetch_data'
+  app/controllers/github_apis_controller.rb:29:in `each'
+  app/controllers/github_apis_controller.rb:29:in `block in fetch_data'
+  app/controllers/github_apis_controller.rb:28:in `each'
+  app/controllers/github_apis_controller.rb:28:in `fetch_data'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:05:27 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/nikita/671533/github_search/app/controllers/github_apis_controller.rb:38: syntax error, unexpected tIDENTIFIER, expecting ';' or '\n'
+/home/nikita/671533/github_search/app/controllers/github_apis_controller.rb:51: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/github_apis_controller.rb:38: syntax error, unexpected tIDENTIFIER, expecting ';' or '\n'
+  app/controllers/github_apis_controller.rb:51: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.1ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:05:39 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 1187ms (ActiveRecord: 1.0ms)
+
+NameError (undefined local variable or method `user' for #<GithubApisController:0xb5dcb828>):
+  app/controllers/github_apis_controller.rb:41:in `block in create_data_array'
+  app/controllers/github_apis_controller.rb:40:in `each'
+  app/controllers/github_apis_controller.rb:40:in `each_with_index'
+  app/controllers/github_apis_controller.rb:40:in `create_data_array'
+  app/controllers/github_apis_controller.rb:32:in `block (2 levels) in fetch_data'
+  app/controllers/github_apis_controller.rb:29:in `each'
+  app/controllers/github_apis_controller.rb:29:in `block in fetch_data'
+  app/controllers/github_apis_controller.rb:28:in `each'
+  app/controllers/github_apis_controller.rb:28:in `fetch_data'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:07:38 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/nikita/671533/github_search/app/controllers/github_apis_controller.rb:25: formal argument cannot be an instance variable):
+  app/controllers/github_apis_controller.rb:25: formal argument cannot be an instance variable
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.2ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:08:24 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 1168ms (ActiveRecord: 1.1ms)
+
+NameError (undefined local variable or method `user' for #<GithubApisController:0xb501a670>):
+  app/controllers/github_apis_controller.rb:41:in `block in create_data_array'
+  app/controllers/github_apis_controller.rb:40:in `each'
+  app/controllers/github_apis_controller.rb:40:in `each_with_index'
+  app/controllers/github_apis_controller.rb:40:in `create_data_array'
+  app/controllers/github_apis_controller.rb:32:in `block (2 levels) in fetch_data'
+  app/controllers/github_apis_controller.rb:29:in `each'
+  app/controllers/github_apis_controller.rb:29:in `block in fetch_data'
+  app/controllers/github_apis_controller.rb:28:in `each'
+  app/controllers/github_apis_controller.rb:28:in `fetch_data'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (40.4ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:09:17 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 1192ms (ActiveRecord: 0.9ms)
+
+NameError (undefined local variable or method `user' for #<GithubApisController:0xb3304d9c>):
+  app/controllers/github_apis_controller.rb:41:in `block in create_data_array'
+  app/controllers/github_apis_controller.rb:40:in `each'
+  app/controllers/github_apis_controller.rb:40:in `each_with_index'
+  app/controllers/github_apis_controller.rb:40:in `create_data_array'
+  app/controllers/github_apis_controller.rb:32:in `block (2 levels) in fetch_data'
+  app/controllers/github_apis_controller.rb:29:in `each'
+  app/controllers/github_apis_controller.rb:29:in `block in fetch_data'
+  app/controllers/github_apis_controller.rb:28:in `each'
+  app/controllers/github_apis_controller.rb:28:in `fetch_data'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.5ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:09:20 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+Completed 500 Internal Server Error in 1021ms (ActiveRecord: 0.3ms)
+
+NameError (undefined local variable or method `user' for #<GithubApisController:0xb52c3674>):
+  app/controllers/github_apis_controller.rb:41:in `block in create_data_array'
+  app/controllers/github_apis_controller.rb:40:in `each'
+  app/controllers/github_apis_controller.rb:40:in `each_with_index'
+  app/controllers/github_apis_controller.rb:40:in `create_data_array'
+  app/controllers/github_apis_controller.rb:32:in `block (2 levels) in fetch_data'
+  app/controllers/github_apis_controller.rb:29:in `each'
+  app/controllers/github_apis_controller.rb:29:in `block in fetch_data'
+  app/controllers/github_apis_controller.rb:28:in `each'
+  app/controllers/github_apis_controller.rb:28:in `fetch_data'
+  app/controllers/github_apis_controller.rb:22:in `index'
+
+
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nikita/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.1ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:10:07 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 7843ms (Views: 74.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:12:18 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.1ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 6532ms (Views: 116.9ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+
+
+Started GET "/" for 192.168.225.1 at 2015-08-04 14:51:02 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GithubApisController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT "keywords"."keyword" FROM "keywords"
+  [1m[36m (0.2ms)[0m  [1mSELECT "users"."user" FROM "users"[0m
+  Rendered github_apis/index.html.erb within layouts/application (21.7ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 6891ms (Views: 780.1ms | ActiveRecord: 0.9ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.3ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.3ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+
+
+Started GET "/users" for 192.168.225.1 at 2015-08-04 16:35:48 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-0204925205d6d7c1333a062c0a83a1857fb527f325ae295cd02bae8995a3f4f8.css?body=1" for 192.168.225.1 at 2015-08-04 16:35:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e17c2bffab913cc981833553fa3ddd48d8be5a3dac82a9d328aedd0b13be2fcb.js?body=1" for 192.168.225.1 at 2015-08-04 16:35:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_user" for 192.168.225.1 at 2015-08-04 16:35:49 +0530
+Cannot render console from 192.168.225.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#get_user as */*
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+DEPRECATION WARNING: `#deliver!` is deprecated and will be removed in Rails 5. Use `#deliver_now!` to deliver immediately or `#deliver_later!` to deliver through Active Job. (called from block (2 levels) in <top (required)> at /home/nikita/671533/github_search/lib/tasks/github_search.rake:41)
+  Rendered send_search_mail/send_search_mail.html.erb within layouts/mailer (1.0ms)
+
+SendSearchMail#send_search_mail: processed outbound mail in 341.3ms
+  [1m[36m (0.2ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.2ms)[0m  SELECT "users"."user" FROM "users"
+DEPRECATION WARNING: `#deliver!` is deprecated and will be removed in Rails 5. Use `#deliver_now!` to deliver immediately or `#deliver_later!` to deliver through Active Job. (called from block (2 levels) in <top (required)> at /home/nikita/671533/github_search/lib/tasks/github_search.rake:41)
+  Rendered send_search_mail/send_search_mail.html.erb within layouts/mailer (1.0ms)
+
+SendSearchMail#send_search_mail: processed outbound mail in 129.6ms
+  [1m[36m (0.1ms)[0m  [1mSELECT "keywords"."keyword" FROM "keywords"[0m
+  [1m[35m (0.1ms)[0m  SELECT "users"."user" FROM "users"
+DEPRECATION WARNING: `#deliver!` is deprecated and will be removed in Rails 5. Use `#deliver_now!` to deliver immediately or `#deliver_later!` to deliver through Active Job. (called from block (2 levels) in <top (required)> at /home/nikita/671533/github_search/lib/tasks/github_search.rake:41)
+  Rendered send_search_mail/send_search_mail.html.erb within layouts/mailer (0.9ms)
+
+SendSearchMail#send_search_mail: processed outbound mail in 136.7ms
