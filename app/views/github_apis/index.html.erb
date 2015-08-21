@@ -1,6 +1,6 @@
 <h1>Github Search</h1>
 <div id="gethub_search"> 
-		<% if @count != 0 %>
+<% if @count != 0 %>
     <table class="table table-striped datatable">
     	<tr>
     		<th>No</th>
@@ -19,7 +19,14 @@
     	</tr>
     	<% end %>
     </table> 
-    <% end %>
+<%else%>
+    <br />
+    <h3>No match found..!!!</h3>
+    <p>
+    <%= link_to "Click to add new Keyword", keywords_path, :target => "_blank" %> | 
+    <%= link_to "Click to add new User", users_path, :target => "_blank" %>
+    </p>
+<% end %>
 </div>
 
 <!-- <p>Total Count = <%= @total_count %> </p>

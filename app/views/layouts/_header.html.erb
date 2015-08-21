@@ -4,7 +4,8 @@
       <%= link_to '<b>Github Search</b>'.html_safe, root_url, :class => "navbar-brand" %>
     </div>
     <div class="navbar-header-right" , data-no-turbolink>
-      <%= link_to "Github", root_url, :class => "navbar-brand" %>
+      <%= link_to "Global Search", github_globals_path, :class => "navbar-brand" %>
+      <%= link_to "Internal Search", github_apis_path, :class => "navbar-brand" %>
       <%= link_to "Keyword", keywords_url, :class => "navbar-brand" %>
       <%= link_to "User", users_url, :class => "navbar-brand" %>
       

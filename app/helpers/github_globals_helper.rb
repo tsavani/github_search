@@ -1,0 +1,2 @@
+module GithubGlobalsHelper
+end

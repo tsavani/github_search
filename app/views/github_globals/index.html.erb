@@ -1,0 +1,31 @@
+<h1>Global Search</h1>
+<div id="github_search" style='width:95%;padding-top:30px;padding-bottom:10px;'>
+  <% if @count != 0 %>
+    <table id='github_global' class="table table-striped" style='width:100%;border:1px solid;'>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>User</th>
+          <th>Match</th>
+          <th>Repository</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @count.times do |i| %>
+            <tr>
+              <td><%= i+1 %></td>
+              <td><%= link_to @data[:user][i], @data[:user_link][i], :target => "_blank" %></td>
+              <td><%= @data[:key][i] %></td>
+              <td><%= link_to @data[:repository][i], @data[:repository_link][i], :target => "_blank" %></td>
+              <td><%= link_to @data[:file_name][i], @data[:file_location][i], :target => "_blank" %></td>
+            </tr>
+        <% end %>
+      </tbody>
+    </table> 
+  <%else%>
+    <br />
+    <h3>No match found..!!!</h3>
+    <p><%= link_to "Click to add new Keyword", keywords_path, :target => "_blank" %></p>
+  <% end %>
+</div>

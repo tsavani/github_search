@@ -18,7 +18,8 @@ $(document).ready(function(){
     all_keyword = [];
       $.ajax({
         type: "GET",
-        url:"/get_data",
+        //window.location.pathname + "clients/image_link"
+        url:window.location.pathname + "/get_data",
         success:function(result){
           $("#keywords_list>table").html(" ");
           $("#keywords_list>table").append('<tr><td><b>keywords</b></td><td><b>Action</b></td></tr>')
@@ -45,7 +46,7 @@ $(document).ready(function(){
 	      
 	      $.ajax({
 	        type: "POST",
-	        url:"/add?keyword="+val,
+	        url:window.location.pathname + "/add?keyword="+val,
 	        success:function(result){
 	            document.getElementById("keyword").value = " " ;
 	            $("#keywords_list>table").html(" ");
@@ -71,7 +72,7 @@ function delete_data(id){
   all_keyword = [];
   $.ajax({
     type: "GET",
-    url:"/delete?id="+id,
+    url:window.location.pathname + "/delete?id="+id,
     success:function(result){
       $("#keywords_list>table").html(" ");
       $("#keywords_list>table").append('<tr><td><b>keywords</b></td><td><b>Action</b></td></tr>')

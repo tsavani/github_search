@@ -27,6 +27,7 @@ class GithubApisController < ApplicationController
     users = User.all.pluck(:user)
      users.each do |user| 
       keywords.each do |keyword|
+        sleep(3)
         get_data = Api.github_search("https://api.github.com/search/code?q=#{keyword}+user:#{user}")
         if !get_data.blank? &&  get_data["items"].count != 0 
           @count += get_data["items"].count

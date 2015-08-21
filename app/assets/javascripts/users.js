@@ -18,7 +18,7 @@ $(document).ready(function(){
     all_users = [];
       $.ajax({
         type: "GET",
-        url:"/get_user",
+        url:window.location.pathname + "/get_user",
         success:function(result){
           $("#users_list>table").html(" ");
           $("#users_list>table").append('<tr><td><b>Users</b></td><td><b>Action</b></td></tr>')
@@ -45,7 +45,7 @@ $(document).ready(function(){
 	      
 	      $.ajax({
 	        type: "POST",
-	        url:"/add_user?user="+val,
+	        url:window.location.pathname + "/add_user?user="+val,
 	        success:function(result){
 	            document.getElementById("user").value = " " ;
 	            $("#users_list>table").html(" ");
@@ -71,7 +71,7 @@ function delete_data(id){
   all_users = [];
   $.ajax({
     type: "GET",
-    url:"/delete_user?id="+id,
+    url:window.location.pathname + "/delete_user?id="+id,
     success:function(result){
       $("#users_list>table").html(" ");
       $("#users_list>table").append('<tr><td><b>Users</b></td><td><b>Action</b></td></tr>')
